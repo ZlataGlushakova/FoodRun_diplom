@@ -1,0 +1,127 @@
+
+:root{
+    /* COLORS*/
+    
+    
+    /*TEME*/
+    
+    /*Light theme*/
+    
+    --light-backround: hsl(0, 0%, 96%);
+    --light-on-background: hsl(120, 3%, 13%);
+    --light-on-background-variant: hsl(140, 3%, 19%);
+    --light-primary: hsl(131, 87%, 59%);
+    --light-primary-hover: hwb(131 20% 20%);
+    --light-primary-container: hsl(134, 57%, 95%);
+    --light-error: hsl(121, 100%, 50%);
+    --light-active-indicator: hsl(132, 58%, 88%);
+    --light-image-background: hsl(120, 0%, 70%);
+    --light-badge-btn: hsl(150, 58%, 88%);
+    --light-on-badge-btn: hsl(144, 7%, 14%);
+    --light-outline: hsl(130, 19%, 88%);
+    --light-input-outline: hsl(127, 7%, 73%);
+    --light-input-outline-hover: hsl(129, 3%, 52%);
+    --light-alpha-10: hsla(0, 0%, 0%, 0.1);
+    --light-alpha-20: hsla(0, 0%, 0%, 0.2);
+    
+    /*Dark theme*/
+    
+    --dark-background: hsl(0, 0%, 10%);
+    --dark-on-background: hsl(131, 3%, 87%);
+    --dark-on-background-variant: hsl(131, 3%, 81%);
+    --dark-primary: hsl(131, 87%, 64%);
+    --dark-primary-hover: hsl(131, 51%, 51%);
+    --dark-primary-container: hsl(135, 3%, 15%);
+    --dark-error: hsl(121, 69%, 59%);
+    --dark-active-indicator: hsl(135, 25%, 22%);
+    --dark-image-background: hsl(120, 0%, 30%);
+    --dark-badge-btn: hsl(150, 28%, 13%);
+    --dark-on-badge-btn: hsl(150, 8%, 86%);
+    --dark-outline: hsl(131, 3%, 20%);
+    --dark-input-outline: hsl(131, 3%, 29%);
+    --dark-input-outline-hover: hsl(120, 4%, 58%);
+    --dark-alpha-10: hsla(0, 0%, 100%, 0.1);
+    --dark-alpha-20: hsla(0, 0%, 100%, 0.2);
+    
+      /* OTHERS */
+      --header-height: 60px;
+      --mobile-nav-height: 80px;
+      --section-gap: 32px;
+    
+    }
+    
+    [data-theme="light"] {
+        color-scheme: light;
+      
+        --background: var(--light-background);
+        --on-background: var(--light-on-background);
+        --on-background-variant: var(--light-on-background-variant);
+        --primary: var(--light-primary);
+        --primary-hover: var(--light-primary-hover);
+        --primary-container: var(--light-primary-container);
+        --error: var(--light-error);
+        --active-indicator: var(--light-active-indicator);
+        --image-background: var(--light-image-background);
+        --badge-btn: var(--light-badge-btn);
+        --on-badge-btn: var(--light-on-badge-btn);
+        --outline: var(--light-outline);
+        --input-outline: var(--light-input-outline);
+        --input-outline-hover: var(--light-input-outline-hover);
+        --alpha-10: var(--light-alpha-10);
+        --alpha-20: var(--light-alpha-20);
+      }
+      
+      
+      [data-theme="dark"] {
+        color-scheme: dark;
+        --background: var(--dark-background);
+        --on-background: var(--dark-on-background);
+        --on-background-variant: var(--dark-on-background-variant);
+        --primary: var(--dark-primary);
+        --primary-hover: var(--dark-primary-hover);
+        --primary-container: var(--dark-primary-container);
+        --error: var(--dark-error);
+        --active-indicator: var(--dark-active-indicator);
+        --image-background: var(--dark-image-background);
+        --badge-btn: var(--dark-badge-btn);
+        --on-badge-btn: var(--dark-on-badge-btn);
+        --outline: var(--dark-outline);
+        --input-outline: var(--dark-input-outline);
+        --input-outline-hover: var(--dark-input-outline-hover);
+        --alpha-10: var(--dark-alpha-10);
+        --alpha-20: var(--dark-alpha-20);
+      }
+    
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: var(--background);
+    
+    }
+    
+    nav {
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        height: var(--header-height);
+        width: 100%;
+        background-color: var(--light-primary-container);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.2));        
+    }
+    
+    nav .nav-bar {
+        position: relative;
+        height: 100%;
+        max-width: 1000px;
+        width: 100%;
+
+    }
+    
+    
+
+
+    
